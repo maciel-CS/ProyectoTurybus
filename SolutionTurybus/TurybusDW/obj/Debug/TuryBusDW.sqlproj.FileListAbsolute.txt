@@ -1,0 +1,9 @@
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TuryBusDW.dacpac
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TurybusDW.dll
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TurybusDW.pdb
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\Model.xml
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\refactor.xml
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\postdeploy.sql
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\predeploy.sql
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.dll
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.pdb
