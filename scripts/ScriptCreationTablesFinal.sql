@@ -52,25 +52,28 @@ CREATE TABLE Autobus (
 );
 GO
 
--- Tabla Revision
+-- Tabla Revisiones, Reparaciones y Repuestos 
 CREATE TABLE Revision (
     id INT PRIMARY KEY IDENTITY(1,1),
     id_autobus INT NOT NULL,
     fecha_revision DATE NOT NULL,
-    diagnostico Text
+    diagnostico TEXT,
+    costo_revision DECIMAL(10, 2) NOT NULL,  -- costo de la revisión
     FOREIGN KEY (id_autobus) REFERENCES Autobus(id)
 );
 GO
 
--- Tabla Reparaciones
 CREATE TABLE Reparaciones (
     id INT PRIMARY KEY IDENTITY(1,1),
     id_revision INT NOT NULL,
     codigo_reparacion VARCHAR(50) NOT NULL,
     tiempo_empleado TIME,
+    costo_reparacion DECIMAL(10, 2) NOT NULL,  -- costo_reparacion y costo_repuestos
+    costo_repuestos DECIMAL(10, 2) NOT NULL,  
     FOREIGN KEY (id_revision) REFERENCES Revision(id)
 );
 GO
+
 
 
 
