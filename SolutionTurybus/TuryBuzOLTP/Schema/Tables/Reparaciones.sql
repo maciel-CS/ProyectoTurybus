@@ -8,7 +8,7 @@
     [rowversion]       [timestamp]         NOT NULL
 );
 GO
-
+-- comG
 ALTER TABLE [dbo].[Reparaciones] ADD CONSTRAINT FK_reparaciones_revision FOREIGN KEY([id_revision]) REFERENCES [dbo].[Revision] ([id])
 ON UPDATE CASCADE
 ON DELETE CASCADE;
