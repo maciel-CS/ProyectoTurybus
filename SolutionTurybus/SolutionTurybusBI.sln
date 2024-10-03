@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TuryBusDW", "TurybusDW\TuryBusDW.sqlproj", "{351A3A12-ACA9-49C0-8415-18284634633D}"
 EndProject
@@ -9,7 +9,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TuryBusETL", "TuryBusETL\Tu
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TuryBusOLAP", "TuryBusOLAP\TuryBusOLAP.sqlproj", "{0A8CD0CB-A601-47F9-AE6F-CFCFE3791C8F}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TuryBuzOLTP", "TuryBuzOLTP\TuryBuzOLTP.sqlproj", "{802B900E-7016-4BD3-9A27-247EB4E224E1}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TuryBusOLTP", "TuryBuzOLTP\TuryBusOLTP.sqlproj", "{802B900E-7016-4BD3-9A27-247EB4E224E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
