@@ -1,10 +1,13 @@
-CREATE TABLE [dbo].[ActividadesTuristicas]
+CREATE TABLE [dbo].[ActividadTuristica]
 (
-	[id_Actividad]      [int] IDENTITY(1,1) NOT NULL CONSTRAINT PK_ActividadesTuristicas PRIMARY KEY,
-	      NOT NULL,  -- Nombre de la actividad turística
-	      NOT NULL,  -- Duración de la actividad (ajustable según necesidades)
-	[id_RutaTuristica]  [int]               NOT NULL,  -- Referencia a la ruta turística
-	[Costo_Actividad]   [decimal](10,2)     NOT NULL,  -- Costo de la actividad en formato decimal
-	[rowversion]        [timestamp]         NOT NULL   -- Control de versiones de filas
+	id INT PRIMARY KEY IDENTITY(1,1),           -- Clave primaria autoincremental
+    Nombre VARCHAR(100) NOT NULL,               -- Nombre de la actividad
+    Duracion TIME NOT NULL,                     -- Duración de la actividad
+    id_RutaTuristica INT NOT NULL,              -- Clave foránea que referencia a la tabla RutasTuristicas
+	Costo_Actividad   decimal(10,2)         NOT NULL,
+	[rowversion]        [timestamp]         NOT NULL
+
+    -- Llave foránea para asegurar la integridad referencial
+    
 );
-GO
+Go

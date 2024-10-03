@@ -1,7 +1,10 @@
-CREATE TABLE [dbo].[LugaresTuristicos]
+CREATE TABLE [dbo].[LugarTuristico]
 (
-	[id]           [int] IDENTITY(1,1) NOT NULL CONSTRAINT PK_LugaresTuristicos PRIMARY KEY,
-	ión del lugar turístico
-	[rowversion]   [timestamp]         NOT NULL   -- Control de versiones de filas
+	[id] INT PRIMARY KEY IDENTITY(1,1),           -- Clave primaria autoincremental
+	[Nombre] VARCHAR(200) NOT NULL ,
+    [descripcion] VARCHAR(MAX) NOT NULL,                -- Descripción del lugar turístico
+	[rowversion]        [timestamp]         NOT NULL
+
+
 );
 GO
