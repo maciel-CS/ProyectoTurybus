@@ -90,4 +90,7 @@
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TuryBuzOLTP.refactorlog" />
+  </ItemGroup>
 </Project>

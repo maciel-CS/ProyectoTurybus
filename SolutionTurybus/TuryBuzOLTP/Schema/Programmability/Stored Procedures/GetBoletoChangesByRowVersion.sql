@@ -5,9 +5,9 @@
 )
 AS
 BEGIN
-	SELECT  id, 
+	SELECT    id, 
             id_ServicioAdquirido,	
-            Feccha_De_Viaje,                            
+            Fecha_De_Viaje,                            
             NroFactura,                         
 	        NroAsiento
 	  FROM [dbo].[Boleto]
