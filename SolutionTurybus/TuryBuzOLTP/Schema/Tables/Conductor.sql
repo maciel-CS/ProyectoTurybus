@@ -1,9 +1,12 @@
 ﻿CREATE TABLE [dbo].[Conductor] (
-		NOT NULL CONSTRAINT PK_conductor PRIMARY KEY,
-		NOT NULL,
-		NOT NULL,
-		NOT NULL,
-		NOT NULL,
-		[rowversion]    [timestamp]      NOT NULL
+    id INT PRIMARY KEY IDENTITY(1,1),
+    CI VARCHAR(20) NOT NULL,
+    Apellidos VARCHAR(50) NOT NULL,
+    Nombre VARCHAR(50) NOT NULL,
+    Telefono VARCHAR(20),
+    Direccion VARCHAR(100),
+    rowversion TIMESTAMP NOT NULL,
+    CONSTRAINT UQ_Conductor_CI UNIQUE(CI) 
 );
 GO
+
