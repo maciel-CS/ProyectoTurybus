@@ -1,7 +1,7 @@
-﻿PRINT 'Populating Conductor table';
+﻿PRINT 'Registrando Conductores...';
 SET NOCOUNT ON;
 
-INSERT INTO dbo.Conductor (Ci, Apellidos, Nombre, Telefono, Direccion)
+INSERT INTO dbo.Conductor (CI, Apellidos, Nombre, Telefono, Direccion)
 VALUES 
 ('12345678', 'Rodriguez', 'Gabriela', '63417543', 'Calle R, Santa Cruz'),
 ('87654321', 'Conde', 'Maciel', '72299441', 'Calle C, Cochabamba'),
@@ -15,4 +15,4 @@ VALUES
 ('15648973', 'Calderon', 'Roberto', '60005488', 'Calle K, La Paz');
 GO
 
-PRINT 'Data inserted into Revision table';
+PRINT 'Conductores registrados';

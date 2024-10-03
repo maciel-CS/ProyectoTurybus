@@ -36,7 +36,7 @@ DBCC CHECKIDENT ('Conductor', RESEED);
 GO
 DELETE FROM Reparaciones;
 GO
-DBCC CHECKIDENT ('Reparaciones', RESEED);
+DBCC CHECKIDENT ('Reparacion', RESEED);
 GO
 DELETE FROM Revision;
 GO
