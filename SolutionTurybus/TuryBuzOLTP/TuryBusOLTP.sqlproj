@@ -67,7 +67,6 @@
     <Build Include="Schema\Tables\Turista.sql" />
     <Build Include="Schema\Tables\Servicio.sql" />
     <Build Include="Schema\Tables\Autobus.sql" />
-    <Build Include="Schema\Tables\Boleto.sql" />
     <Build Include="Schema\Tables\Conductor.sql" />
     <Build Include="Schema\Tables\DetalleServicio.sql" />
     <Build Include="Schema\Tables\Revision.sql" />
@@ -77,10 +76,11 @@
     <Build Include="Schema\Programmability\Stored Procedures\GetDetalleServicioByRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetServicioAdquiridoChangesByRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetServicioChangesByRowVersion.sql" />
-    <Build Include="Schema\Tables\RutasTuristicas.sql" />
-    <Build Include="Schema\Tables\ActividadesTuristicas.sql" />
-    <Build Include="Schema\Tables\LugaresTuristicos.sql" />
+    <Build Include="Schema\Tables\ActividadTuristica.sql" />
+    <Build Include="Schema\Tables\LugarTuristico.sql" />
     <Build Include="Schema\Tables\Reparacion.sql" />
+    <Build Include="Schema\Tables\Boleto.sql" />
+    <Build Include="Schema\Tables\RutaTuristica.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Autobus.data.sql" />
@@ -90,11 +90,13 @@
     <None Include="Scripts\Revision.data.sql" />
     <None Include="Scripts\Servicio.data.sql" />
     <None Include="Scripts\Reparacion.data.sql" />
+    <None Include="Scripts\RutaTuristica.data.sql" />
+    <None Include="Scripts\ServicioAdquirido.data.sql" />
+    <None Include="Scripts\Boleto.data.sql" />
+    <None Include="Scripts\ActividadTuristica.data.sql" />
+    <None Include="Scripts\Turista.data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="TuryBuzOLTP.refactorlog" />
   </ItemGroup>
 </Project>

@@ -7,3 +7,4 @@ D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\Solution
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\predeploy.sql
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.dll
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.pdb
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TuryBusDW.sqlproj.AssemblyReference.cache

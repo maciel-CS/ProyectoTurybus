@@ -1,16 +1,16 @@
-﻿PRINT 'Populating LugaresTuristicos table';
+﻿PRINT 'Populating LugarTuristico table';
 SET NOCOUNT ON;
 
-SET IDENTITY_INSERT dbo.LugaresTuristicos ON;  
+SET IDENTITY_INSERT dbo.LugarTuristico ON;  
 
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Guembe')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Machia')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Lago Titicaca')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Ecoparque Las Orquideas')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Uyuni')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Mirador Illimani')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Isla del Sol')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Samaipata')
-INSERT INTO dbo.LugaresTuristicos(Descripcion) VALUES('Vallagrande')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Guembe')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Machia')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Lago Titicaca')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Ecoparque Las Orquideas')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Uyuni')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Mirador Illimani')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Isla del Sol')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Samaipata')
+INSERT INTO dbo.LugarTuristico(Descripcion) VALUES('Vallagrande')
 
-SET IDENTITY_INSERT dbo.LugaresTuristicos OFF;
+SET IDENTITY_INSERT dbo.LugarTuristico OFF;

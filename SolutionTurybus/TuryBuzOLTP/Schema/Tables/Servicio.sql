@@ -9,7 +9,7 @@
 	Dias_programados varchar(100),	
 	rowversion timestamp  NOT NULL
 	
-    CONSTRAINT FK_Servicio_Ruta FOREIGN KEY (id_ruta) REFERENCES RutasTuristicas(id),
     CONSTRAINT FK_Servicio_Conductor FOREIGN KEY (id_conductor) REFERENCES Conductor(id),
-    CONSTRAINT FK_Servicio_Autobus FOREIGN KEY (id_autobus) REFERENCES Autobus(id)
+    CONSTRAINT FK_Servicio_Autobus FOREIGN KEY (id_autobus) REFERENCES Autobus(id), 
+    CONSTRAINT [FK_Servicio_RutasTuristicas] FOREIGN KEY (id_ruta) REFERENCES rutaTuristica(Id)
 );

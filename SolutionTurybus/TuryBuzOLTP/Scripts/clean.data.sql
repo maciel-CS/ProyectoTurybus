@@ -14,17 +14,17 @@ DELETE FROM Servicio;
 GO
 DBCC CHECKIDENT ('Servicio', RESEED);
 GO
-DELETE FROM ActividadesTuristicas;
+DELETE FROM ActividadTuristica;
 GO
-DBCC CHECKIDENT ('ActividadesTuristicas', RESEED);
+DBCC CHECKIDENT ('ActividadTuristica', RESEED);
 GO
-DELETE FROM RutasTuristicas;
+DELETE FROM RutaTuristica;
 GO
-DBCC CHECKIDENT ('RutasTuristicas', RESEED);
+DBCC CHECKIDENT ('RutaTuristica', RESEED);
 GO
-DELETE FROM LugaresTuristicas;
+DELETE FROM LugarTuristico;
 GO
-DBCC CHECKIDENT ('LugaresTuristicas', RESEED);
+DBCC CHECKIDENT ('LugarTuristico', RESEED);
 GO
 DELETE FROM Turista;
 GO
@@ -34,7 +34,7 @@ DELETE FROM Conductor;
 GO
 DBCC CHECKIDENT ('Conductor', RESEED);
 GO
-DELETE FROM Reparaciones;
+DELETE FROM Reparacion;
 GO
 DBCC CHECKIDENT ('Reparacion', RESEED);
 GO

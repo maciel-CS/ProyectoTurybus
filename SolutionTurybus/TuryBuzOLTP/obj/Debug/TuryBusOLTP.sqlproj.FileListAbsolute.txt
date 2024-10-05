@@ -1,0 +1,6 @@
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBusOLTP.sqlproj.AssemblyReference.cache
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.dll
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.pdb
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBusOLTP.dacpac
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.dll
+D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.pdb

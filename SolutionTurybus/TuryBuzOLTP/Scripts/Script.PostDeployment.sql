@@ -15,8 +15,8 @@ Post-Deployment Script Template
 :r .\Autobus.data.sql
 :r .\Conductor.data.sql
 :r .\Revision.data.sql
-:r .\Reparaciones.data.sql
-:r .\LugarTuristico.data.sql
+:r .\Reparacion.data.sql
+:r .\LugaresTuristicos.data.sql
 :r .\RutaTuristica.data.sql
 :r .\ActividadTuristica.data.sql
 :r .\Servicio.data.sql

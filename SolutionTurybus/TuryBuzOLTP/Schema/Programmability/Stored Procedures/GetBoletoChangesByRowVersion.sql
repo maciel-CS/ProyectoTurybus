@@ -7,7 +7,7 @@ AS
 BEGIN
 	SELECT    id, 
             id_ServicioAdquirido,	
-            Fecha_De_Viaje,                            
+            FechaDeViaje,                            
             NroFactura,                         
 	        NroAsiento
 	  FROM [dbo].[Boleto]

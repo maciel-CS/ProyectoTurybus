@@ -1,8 +1,8 @@
 ﻿PRINT 'Añadiendo datos a la tabla Reparacion';
 SET NOCOUNT ON;
 
--- Insertando datos en la tabla Reparaciones
-INSERT INTO dbo.Reparaciones (id_revision, codigo_reparacion, tiempo_empleado, costo_reparacion, costo_repuestos)
+-- Insertando datos en la tabla Reparacion
+INSERT INTO dbo.Reparacion (id_revision, codigo_reparacion, tiempo_empleado, costo_reparacion, costo_repuestos)
 VALUES 
 (1, 'RPR-001', '02:30:00', 300.50, 150.25),
 (2, 'RPR-002', '01:45:00', 200.75, 100.50),
