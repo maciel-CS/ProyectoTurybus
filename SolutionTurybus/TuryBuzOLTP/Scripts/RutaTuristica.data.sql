@@ -22,7 +22,12 @@ VALUES
 ('04:00:00', 4, 17, 80.00, '02:30:00'), -- Ruta de Potosí a Torotoro
 ('02:30:00', 2, 18, 30.00, '01:30:00'), -- Ruta de La Paz a Yungas
 ('01:30:00', 1, 19, 20.00, '02:00:00'), -- Ruta de Salar de Uyuni a Samaipata
-('02:45:00', 5, 20, 25.00, '01:00:00'), -- Ruta de Sucre a Sucre - Parque Cretácico
-('01:50:00', 2, 21, 30.00, '02:00:00'); -- Ruta de La Paz a Chacaltaya
+('02:45:00', 5, 20, 25.00, '01:00:00'); -- Ruta de Sucre a Sucre - Parque Cretácico
+
+GO
+
+PRINT 'END Populating RutaTuristica table';
+
+
 
 

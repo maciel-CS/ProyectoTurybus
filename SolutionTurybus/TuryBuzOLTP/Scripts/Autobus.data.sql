@@ -1,6 +1,8 @@
 ﻿PRINT 'Populating Autobus table';
 SET NOCOUNT ON;
 
+GO
+
 -- Insertando datos en la tabla Autobus
 INSERT INTO Autobus (Matricula, Numero_de_plazas, Modelo, Fabricante, Descripcion_caracteristicas)
 VALUES 
