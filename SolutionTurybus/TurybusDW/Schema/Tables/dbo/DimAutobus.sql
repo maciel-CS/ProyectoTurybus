@@ -1,4 +1,6 @@
-CREATE TABLE [dbo].[DimAutobus](    
+CREATE TABLE [dbo].[DimAutobus](   
+    AutobusSK INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimAutobus PRIMARY KEY,
+    AutobusID INT NOT NULL,  
     Matricula VARCHAR(50) NOT NULL,
     Numero_de_plazas INT NOT NULL,
     Modelo VARCHAR(100),
