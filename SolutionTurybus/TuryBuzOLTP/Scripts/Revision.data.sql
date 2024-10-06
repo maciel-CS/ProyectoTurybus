@@ -4,7 +4,7 @@ SET NOCOUNT ON;
 -- Insertando datos en la tabla Revision
 INSERT INTO dbo.Revision (id_autobus, fecha_revision, diagnostico, costo_revision)
 VALUES 
-(1, '2023-05-12', 'Cambio de frenos y aceite', 150.50),
+
 (2, '2023-06-14', 'Revisión completa del motor', 300.75),
 (3, '2023-07-01', 'Cambio de llantas traseras', 200.00),
 (4, '2023-04-22', 'Diagnóstico de sistema eléctrico', 120.25),
@@ -50,6 +50,5 @@ VALUES
 (7, '2024-03-12', 'Cambio de bateria',200.00),
 (5, '2024-03-14', 'Revisión del sistema de refrigeración',120.00),
 (9, '2024-03-15', 'Revisión de motor y cambio de llantas',250.50);
-GO
 
 PRINT 'Data inserted into Revision table';

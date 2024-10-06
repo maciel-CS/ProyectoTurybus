@@ -6,10 +6,7 @@
     costo_reparacion DECIMAL(10, 2) NOT NULL, 
     costo_repuestos DECIMAL(10, 2) NOT NULL,  
     rowversion TIMESTAMP NOT NULL,               
-    CONSTRAINT FK_reparacion_revision FOREIGN KEY (id_revision) 
-        REFERENCES [dbo].[Revision] (id)         -- Relación con la tabla Revision
-        ON UPDATE CASCADE 
-        ON DELETE CASCADE
+    CONSTRAINT FK_reparacion_revision FOREIGN KEY (id_revision) REFERENCES [dbo].[Revision] (id)    
 );
 GO
 

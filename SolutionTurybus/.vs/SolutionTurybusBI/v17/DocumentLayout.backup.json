@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Schema\\Tables\\Boleto.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Schema\\Tables\\Boleto.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Conductor.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\Conductor.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\clean.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\clean.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\Servicio.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Schema\\Tables\\Boleto.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Schema\\Tables\\Boleto.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\clean.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\clean.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Conductor.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{802B900E-7016-4BD3-9A27-247EB4E224E1}|TuryBuzOLTP\\TuryBusOLTP.sqlproj|solutionrelative:TuryBuzOLTP\\Scripts\\Conductor.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,30 +63,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Boleto.sql ",
-              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Schema\\Tables\\Boleto.sql",
-              "RelativeDocumentMoniker": "TuryBuzOLTP\\Schema\\Tables\\Boleto.sql",
-              "ToolTip": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Schema\\Tables\\Boleto.sql\r\n(localdb)\\ProjectModels.TuryBusOLTP\r\n(HARRIS\\mc91425)",
+              "Title": "Conductor.data.sql ",
+              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Conductor.data.sql",
+              "RelativeDocumentMoniker": "TuryBuzOLTP\\Scripts\\Conductor.data.sql",
+              "ToolTip": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Conductor.data.sql",
+              "RelativeToolTip": "TuryBuzOLTP\\Scripts\\Conductor.data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-05T08:37:52.542Z",
+              "WhenOpened": "2024-10-06T11:57:32.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Servicio.data.sql",
-              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Servicio.data.sql",
-              "RelativeDocumentMoniker": "TuryBuzOLTP\\Scripts\\Servicio.data.sql",
-              "ToolTip": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Servicio.data.sql",
-              "RelativeToolTip": "TuryBuzOLTP\\Scripts\\Servicio.data.sql",
+              "Title": "TuryBusOLTP_47.publish.sql ",
+              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql",
+              "RelativeDocumentMoniker": "TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_47.publish.sql",
+              "ToolTip": "TuryBusOLTP_47.publish.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-05T08:28:40.356Z",
+              "WhenOpened": "2024-10-06T11:53:12.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Script.PostDeployment.sql",
+              "Title": "clean.data.sql ",
+              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\clean.data.sql",
+              "RelativeDocumentMoniker": "TuryBuzOLTP\\Scripts\\clean.data.sql",
+              "ToolTip": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\clean.data.sql",
+              "RelativeToolTip": "TuryBuzOLTP\\Scripts\\clean.data.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-06T11:50:50.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TuryBusOLTP_46.publish.sql ",
+              "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql",
+              "RelativeDocumentMoniker": "TuryBuzOLTP\\bin\\Debug\\TuryBusOLTP_46.publish.sql",
+              "ToolTip": "TuryBusOLTP_46.publish.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-06T11:49:39.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Script.PostDeployment.sql ",
               "DocumentMoniker": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql",
               "RelativeDocumentMoniker": "TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql",
               "ToolTip": "D:\\Mscs\\Perso\\MAESTRIA\\DataManagmentBussinesIntelligent\\ProyectoTurybus\\SolutionTurybus\\TuryBuzOLTP\\Scripts\\Script.PostDeployment.sql",

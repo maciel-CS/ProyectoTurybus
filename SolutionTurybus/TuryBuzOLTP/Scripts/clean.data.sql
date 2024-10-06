@@ -1,50 +1,50 @@
 ﻿DELETE FROM Boleto;
 GO
-DBCC CHECKIDENT ('Boleto', RESEED);
+DBCC CHECKIDENT ('Boleto', RESEED );
 GO
 DELETE FROM DetalleServicio;
 GO
-DBCC CHECKIDENT ('DetalleServicio', RESEED);
+DBCC CHECKIDENT ('DetalleServicio',RESEED);
 GO
 DELETE FROM ServicioAdquirido;
 GO
-DBCC CHECKIDENT ('ServicioAdquirido', RESEED);
+DBCC CHECKIDENT ('ServicioAdquirido',RESEED);
 GO
 DELETE FROM Servicio;
 GO
-DBCC CHECKIDENT ('Servicio', RESEED);
+DBCC CHECKIDENT ('Servicio',RESEED);
 GO
 DELETE FROM ActividadTuristica;
 GO
-DBCC CHECKIDENT ('ActividadTuristica', RESEED);
+DBCC CHECKIDENT ('ActividadTuristica',RESEED);
 GO
 DELETE FROM RutaTuristica;
 GO
-DBCC CHECKIDENT ('RutaTuristica', RESEED);
+DBCC CHECKIDENT ('RutaTuristica',RESEED);
 GO
 DELETE FROM LugarTuristico;
 GO
-DBCC CHECKIDENT ('LugarTuristico', RESEED);
+DBCC CHECKIDENT ('LugarTuristico',RESEED);
 GO
 DELETE FROM Turista;
 GO
-DBCC CHECKIDENT ('Turista', RESEED);
+DBCC CHECKIDENT ('Turista',RESEED);
 GO
 DELETE FROM Conductor;
 GO
-DBCC CHECKIDENT ('Conductor', RESEED);
+DBCC CHECKIDENT ('Conductor',RESEED);
 GO
 DELETE FROM Reparacion;
 GO
-DBCC CHECKIDENT ('Reparacion', RESEED);
+DBCC CHECKIDENT ('Reparacion',RESEED);
 GO
 DELETE FROM Revision;
 GO
-DBCC CHECKIDENT ('Revision', RESEED);
+DBCC CHECKIDENT ('Revision',RESEED);
 GO
 DELETE FROM Autobus;
 GO
-DBCC CHECKIDENT ('Autobus', RESEED);
+DBCC CHECKIDENT ('Autobus',RESEED);
 GO
 
 
