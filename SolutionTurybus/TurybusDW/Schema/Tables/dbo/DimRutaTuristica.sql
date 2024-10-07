@@ -1,6 +1,7 @@
 CREATE TABLE [dbo].[DimRutaTuristica]
 (
-    id INT IDENTITY(1,1) PRIMARY KEY,          -- Clave primaria autoincremental
+    RutaTuristicaSK INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimRutaTuristica PRIMARY KEY,  -- Surrogate Key (Clave sustituta)
+    RutaTuristicaID INT NOT NULL,              -- Identificador de negocio
     tiempo_viaje TIME NOT NULL,                -- Duración del viaje
     id_lugar_origen INT NOT NULL,              -- Identificador del lugar de origen
     id_lugar_destino INT NOT NULL,             -- Identificador del lugar de destino
