@@ -1,4 +1,4 @@
-CREATE TABLE [Staging].[DimTurista]
+CREATE TABLE [Staging].[Turista]
 (
     id_turista INT,                       -- No es clave primaria en la tabla staging
     Ci VARCHAR(50),                       -- Número de cédula de identidad

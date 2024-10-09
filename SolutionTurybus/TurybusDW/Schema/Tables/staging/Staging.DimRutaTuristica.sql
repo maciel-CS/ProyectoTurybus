@@ -1,4 +1,4 @@
-CREATE TABLE [Staging].[DimRutaTuristica]
+CREATE TABLE [Staging].[RutaTuristica]
 (
     id INT,                               -- Identificador del registro (sin clave primaria en staging)
     tiempo_viaje TIME,                    -- Duración del viaje

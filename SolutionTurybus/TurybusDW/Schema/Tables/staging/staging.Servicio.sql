@@ -1,4 +1,4 @@
-CREATE TABLE [staging].[DimServicio](
+CREATE TABLE [staging].[Servicio](
 	id_ruta INT,
 	fecha DATE,
 	hora_salida TIME,

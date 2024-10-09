@@ -1,4 +1,4 @@
-CREATE TABLE [staging].[DimAutobus](    
+CREATE TABLE [staging].[Autobus](    
     Matricula VARCHAR(50) NOT NULL,
     Numero_de_plazas INT NOT NULL,
     Modelo VARCHAR(100),

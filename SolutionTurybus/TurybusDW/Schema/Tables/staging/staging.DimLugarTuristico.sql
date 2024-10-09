@@ -1,4 +1,4 @@
-CREATE TABLE [Staging].[DimLugarTuristico]
+CREATE TABLE [Staging].[LugarTuristico]
 (
     id INT,                               -- El ID original del lugar turístico
     Nombre VARCHAR(200),                  -- Nombre del lugar turístico

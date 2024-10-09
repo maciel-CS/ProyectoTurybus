@@ -1,4 +1,4 @@
-CREATE TABLE [staging].[DimConductor] (
+CREATE TABLE [staging].[Conductor] (
     CI VARCHAR(20) PRIMARY KEY,
     Apellidos VARCHAR(255),
     Nombre VARCHAR(255),

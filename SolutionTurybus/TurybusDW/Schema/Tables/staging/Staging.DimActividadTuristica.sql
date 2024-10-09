@@ -1,4 +1,4 @@
-CREATE TABLE [Staging].[DimActividadTuristica]
+CREATE TABLE [Staging].[ActividadTuristica]
 (
     id INT,                                  -- Identificador de la actividad (sin clave primaria en staging)
     Nombre VARCHAR(100),                     -- Nombre de la actividad turística
