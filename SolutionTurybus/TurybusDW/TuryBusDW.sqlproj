@@ -64,10 +64,42 @@
     <Folder Include="Schema\Security" />
     <Folder Include="Schema\Security\schemas" />
     <Folder Include="Schema\Programmability\Stored Procedures" />
+    <Folder Include="Schema\Tables\dbo" />
+    <Folder Include="Schema\Tables\staging" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimAutobus.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimConductor.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimServicio.sql" />
+    <Build Include="Schema\Tables\dbo\DimActividadTuristica.sql" />
+    <Build Include="Schema\Tables\dbo\DimAutobus.sql" />
+    <Build Include="Schema\Tables\dbo\DimConductor.sql" />
+    <Build Include="Schema\Tables\dbo\DimLugarTuristico.sql" />
+    <Build Include="Schema\Tables\dbo\DimRutaTuristica.sql" />
+    <Build Include="Schema\Tables\dbo\DimServicio.sql" />
+    <Build Include="Schema\Tables\dbo\DimTiempo.sql" />
+    <Build Include="Schema\Tables\dbo\DimTurista.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimBoleto.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeFacServicioAdquirido.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
+    <Build Include="Schema\Security\schemas\staging.sql" />
+    <Build Include="Schema\Tables\staging\staging.Autobus.sql" />
+    <Build Include="Schema\Tables\staging\staging.Conductor.sql" />
+    <Build Include="Schema\Tables\staging\Staging.DimActividadTuristica.sql" />
+    <Build Include="Schema\Tables\staging\staging.DimLugarTuristico.sql" />
+    <Build Include="Schema\Tables\staging\Staging.DimRutaTuristica.sql" />
+    <Build Include="Schema\Tables\staging\staging.DimTuristico.sql" />
+    <Build Include="Schema\Tables\staging\staging.Servicio.sql" />
+    <Build Include="Schema\Tables\staging\staging.ServicioAdquirido.sql" />
+    <Build Include="Schema\Tables\dbo\FactServicioAdquirido.sql" />
+    <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\DimDate.data.sql" />
+    <None Include="Scripts\PackageConfig.data.sql" />
+    <None Include="Scripts\PatchDimDate.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>

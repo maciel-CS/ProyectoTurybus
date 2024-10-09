@@ -6,7 +6,7 @@
 AS
 BEGIN
 	SELECT   id,                
-	id_Servicio,
+	  id_Servicio,
     id_Turista,
 	FechaAdquirida 
 	FROM [dbo].[ServicioAdquirido]
