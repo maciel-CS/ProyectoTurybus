@@ -1,6 +1,6 @@
 CREATE TABLE [staging].[Turista] 
 (
-    TuristaID INT,                                                    -- ID original del turista
+    TuristaSK INT NOT NULL,                                                    -- ID original del turista
     Ci VARCHAR(50),                                                   -- Número de cédula de identidad
     Apellidos VARCHAR(255),                                           -- Apellidos del turista
     Nombre VARCHAR(255),                                              -- Nombre del turista

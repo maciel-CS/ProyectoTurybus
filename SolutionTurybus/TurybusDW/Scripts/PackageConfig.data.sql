@@ -1,35 +1,56 @@
 ﻿IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[PackageConfig]
-			  WHERE [TableName] = 'Customer')
+			  WHERE [TableName] = 'Servicio')
  BEGIN
-	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Customer', 0)
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Servicio', 0)
  END
 GO
 IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[PackageConfig]
-			  WHERE [TableName] = 'Staff')
+			  WHERE [TableName] = 'Conductor')
  BEGIN
-	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Staff', 0)
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Conductor', 0)
  END
 GO
 IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[PackageConfig]
-			  WHERE [TableName] = 'Store')
+			  WHERE [TableName] = 'RutaTuristica')
  BEGIN
-  INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Store', 0)
+  INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('RutaTuristica', 0)
  END
 GO
 IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[PackageConfig]
-			  WHERE [TableName] = 'Product')
+			  WHERE [TableName] = 'ActividadTuristica')
  BEGIN
-	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Product', 0)
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('ActividadTuristica', 0)
  END
 GO
 IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[PackageConfig]
-			  WHERE [TableName] = 'Orders')
+			  WHERE [TableName] = 'Turista')
  BEGIN
-	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Orders', 0)
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Turista', 0)
+ END
+GO
+IF NOT EXISTS(SELECT TOP(1) 1
+              FROM [dbo].[PackageConfig]
+			  WHERE [TableName] = 'Autobus')
+ BEGIN
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Autobus', 0)
+ END
+GO
+IF NOT EXISTS(SELECT TOP(1) 1
+              FROM [dbo].[PackageConfig]
+			  WHERE [TableName] = 'ServicioAdquirido')
+ BEGIN
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('ServicioAdquirido', 0)
+ END
+GO
+IF NOT EXISTS(SELECT TOP(1) 1
+              FROM [dbo].[PackageConfig]
+			  WHERE [TableName] = 'Boleto')
+ BEGIN
+	INSERT [dbo].[PackageConfig] ([TableName], [LastRowVersion]) VALUES ('Boleto', 0)
  END
 GO

@@ -8,6 +8,6 @@ BEGIN
         ,[CostoTransporte] = sc.[CostoTransporte]
         ,[TiempoParada] = sc.[TiempoParada]
     FROM [dbo].[DimRutaTuristica]      dc
-    INNER JOIN [Staging].[RutaTuristica] sc ON (dc.[RutaTuristicaID] = sc.[RutaTuristicaID])
+    INNER JOIN [Staging].[RutaTuristica] sc ON (dc.[RutaTuristicaSK] = sc.[RutaTuristicaSK])
 END
 GO

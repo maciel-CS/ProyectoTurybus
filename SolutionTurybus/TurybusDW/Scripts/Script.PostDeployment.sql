@@ -6,10 +6,9 @@ Post-Deployment Script Template
  Example:      :r .\myfile.sql								
  Use SQLCMD syntax to reference a variable in the post-deployment script.		
  Example:      :setvar TableName MyTable							
-               SELECT * FROM [$(TableName)]					
+               SELECT * FROM [$(TableName)]		
 --------------------------------------------------------------------------------------
 */
 
 :r .\PackageConfig.data.sql	
-:r .\DimDate.data.sql	
-:r .\PatchDimDate.data.sql	
+:r .\PatchDimTiempo.data.sql

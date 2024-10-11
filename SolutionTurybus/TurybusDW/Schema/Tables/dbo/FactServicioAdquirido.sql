@@ -1,5 +1,6 @@
 ﻿CREATE TABLE FactServicioAdquirido
 (
+   ServicioAdquiridoSK int NOT NULL,
    ServicioAdquiridoID int NOT NULL,
    TuristaID INT NOT NULL,   
    ServicioSK INT NOT NULL,

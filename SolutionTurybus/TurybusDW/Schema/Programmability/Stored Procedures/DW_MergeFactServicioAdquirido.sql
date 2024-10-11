@@ -17,7 +17,7 @@ BEGIN
 			,NumeroDeActividades	= sc.NumeroDeActividades
 			,ListadeActividades 	= sc.ListadeActividades 
 	FROM FactServicioAdquirido dc
-	INNER JOIN [staging].[ServicioAdquirido] sc ON (dc.[ServicioAdquiridoID] = sc.[ServicioAdquiridoID] AND dc.TuristaID = sc.[TuristaID])
+	INNER JOIN [staging].[ServicioAdquirido] sc ON (dc.[ServicioAdquiridoSK] = sc.[ServicioAdquiridoID] AND dc.TuristaID = sc.[TuristaSK])
 END
 GO
 

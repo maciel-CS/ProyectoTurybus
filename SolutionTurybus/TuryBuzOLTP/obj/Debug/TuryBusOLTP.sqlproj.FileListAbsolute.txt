@@ -8,3 +8,13 @@ D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\Solution
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\refactor.xml
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\postdeploy.sql
 D:\Mscs\Perso\MAESTRIA\DataManagmentBussinesIntelligent\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\predeploy.sql
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBusOLTP.dacpac
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.dll
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.pdb
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBusOLTP.sqlproj.AssemblyReference.cache
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\Model.xml
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\refactor.xml
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\postdeploy.sql
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\predeploy.sql
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.dll
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.pdb
