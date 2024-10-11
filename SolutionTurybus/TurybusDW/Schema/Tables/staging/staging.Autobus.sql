@@ -1,12 +1,13 @@
-CREATE TABLE [staging].[Autobus](    
+CREATE TABLE [staging].[Autobus]( 
+    AutobusSK INT,
     Matricula VARCHAR(50) NOT NULL,
-    Numero_de_plazas INT NOT NULL,
+    NumeroPlazas INT NOT NULL,
     Modelo VARCHAR(100),
     -- fabricante VARCHAR(100),
     -- descripcion_caracteristicas TEXT,
-    Numero_de_revisiones INT,
-    Numero_de_reparaciones INT,
-    Costo_total_revisiones DECIMAL(10,2),
-    Costo_total_reparaciones DECIMAL(10,2),
-    Costo_total_repuestos DECIMAL(10,2)
+    NumeroRevisiones INT,
+    NumeroReparaciones INT,
+    CostoTotalRevisiones DECIMAL(10,2),
+    CostoTotalReparaciones DECIMAL(10,2),
+    CostoTotalRepuestos DECIMAL(10,2)
 );

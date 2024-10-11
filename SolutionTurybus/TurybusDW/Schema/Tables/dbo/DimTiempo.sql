@@ -1,5 +1,6 @@
 CREATE TABLE [dbo].[DimTiempo] (
-    TiempoSK INT PRIMARY KEY IDENTITY(1,1),   -- Surrogate Key
+    --TiempoSK INT PRIMARY KEY IDENTITY(1,1),   -- Surrogate Key
+    TiempoID INT NOT NULL,
     full_fecha DATE NOT NULL,                 -- Fecha completa
     dia_numero_semana INT NOT NULL,           -- Día de la semana (1-7)
     nombre_dia VARCHAR(20) NOT NULL,          -- Nombre del día (Lunes, Martes, etc.)

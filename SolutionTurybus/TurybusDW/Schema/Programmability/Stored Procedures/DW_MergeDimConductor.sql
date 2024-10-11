@@ -5,9 +5,9 @@ BEGIN
 	SET [CI] = sc.[CI]
 		,[Apellidos] = sc.[Apellidos]
         ,[Nombre] = sc.[Nombre]
-        ,[Telefono] = [Telefono]
-        ,[Direccion] = [Direccion]
+        ,[Telefono] = sc.[Telefono]
+        ,[Direccion] = sc.[Direccion]
     FROM [dbo].[DimConductor]         dc
-    INNER JOIN [staging].[Conductor]  sc ON (dc.[ConductorSK]=sc.[ConductorSK])
+    INNER JOIN [staging].[Conductor] sc ON (dc.[ConductorSK]=sc.[ConductorSK])
 END
 GO

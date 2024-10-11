@@ -16,13 +16,14 @@
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetLanguage>CS</TargetLanguage>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <TargetDatabase>TuryBusDW</TargetDatabase>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -74,25 +75,28 @@
     <Build Include="Schema\Tables\dbo\DimActividadTuristica.sql" />
     <Build Include="Schema\Tables\dbo\DimAutobus.sql" />
     <Build Include="Schema\Tables\dbo\DimConductor.sql" />
-    <Build Include="Schema\Tables\dbo\DimLugarTuristico.sql" />
     <Build Include="Schema\Tables\dbo\DimRutaTuristica.sql" />
     <Build Include="Schema\Tables\dbo\DimServicio.sql" />
     <Build Include="Schema\Tables\dbo\DimTiempo.sql" />
     <Build Include="Schema\Tables\dbo\DimTurista.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimBoleto.sql" />
-    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeFacServicioAdquirido.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeFactServicioAdquirido.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
     <Build Include="Schema\Security\schemas\staging.sql" />
     <Build Include="Schema\Tables\staging\staging.Autobus.sql" />
     <Build Include="Schema\Tables\staging\staging.Conductor.sql" />
-    <Build Include="Schema\Tables\staging\Staging.DimActividadTuristica.sql" />
-    <Build Include="Schema\Tables\staging\staging.DimLugarTuristico.sql" />
-    <Build Include="Schema\Tables\staging\Staging.DimRutaTuristica.sql" />
-    <Build Include="Schema\Tables\staging\staging.DimTuristico.sql" />
+    <Build Include="Schema\Tables\staging\staging.ActividadTuristica.sql" />
+    <Build Include="Schema\Tables\staging\staging.RutaTuristica.sql" />
+    <Build Include="Schema\Tables\staging\staging.Turista.sql" />
     <Build Include="Schema\Tables\staging\staging.Servicio.sql" />
     <Build Include="Schema\Tables\staging\staging.ServicioAdquirido.sql" />
     <Build Include="Schema\Tables\dbo\FactServicioAdquirido.sql" />
     <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
+    <Build Include="Schema\Tables\staging\staging.Boleto.sql" />
+    <Build Include="Schema\Tables\dbo\DimBoleto.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimTurista.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimRutaTuristica.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimActividadTuristica.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\DimDate.data.sql" />

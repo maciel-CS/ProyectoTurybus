@@ -2,13 +2,11 @@
 AS
 BEGIN
 
-	UPDATE db
-	SET [ProductName]  = sb.[ProductName]
-	   ,[BrandName]    = sb.[BrandName]
-	   ,[CategoryName] = sb.[CategoryName]
-	   ,[ModelYear]    = sb.[ModelYear]
-	   ,[ListPrice]    = sb.[ListPrice]
-	FROM [dbo].[DimBoleto]         db
-	INNER JOIN boleto sb ON (db.[BoletoSK]=sb.[BoletoSK])
+	UPDATE dc
+	SET [FechaDeViaje]    = sc.[FechaDeviaje]
+	   ,[NroFactura] = sc.[NroFactura]
+	   ,[NroAsiento]    = sc.[NroAsiento]
+	   	FROM [dbo].[DimBoleto]         dc
+	INNER JOIN boleto sc ON (dc.[BoletoSK]=sc.[BoletoSK])
 END
 GO
