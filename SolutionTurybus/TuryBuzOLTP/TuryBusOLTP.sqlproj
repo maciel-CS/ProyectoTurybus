@@ -81,6 +81,14 @@
     <Build Include="Schema\Tables\Reparacion.sql" />
     <Build Include="Schema\Tables\Boleto.sql" />
     <Build Include="Schema\Tables\RutaTuristica.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetActividadTuristicaChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetAutobusChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetConductorChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetLugarTuristicoChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetReparacionChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetRevisionChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetRutaTuristicaChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetTuristaChangesByRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Autobus.data.sql" />
