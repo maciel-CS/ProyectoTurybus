@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="DimTurista"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{8E179FCA-571C-4644-AA98-5A356ECB2367}">
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{3C890B03-B9F0-4572-9567-4080835793B1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,12 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-2G3SQHI\SQLSERVER2022;User ID=sa;Initial Catalog=Turibus;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-DimTurista-{DA26735B-FC72-4455-B2DE-851706BC875A}DESKTOP-2G3SQHI\SQLSERVER2022.Turibus.sa;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACmWAMR8alkKAvQpiIbYE/AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAiuwhQ1Q/n56E10eLY8Gi0wHRhUSLrzk33ve0BFKwVwQAAAAAOgAAAAAIAACAAAAASHnj3sMATaW/CzZPM7lhBDNDN/O8MCApzI5N64Gp66jAAAABFstGQQfj1iOZLa2Q3NcfBc44gvtkBuLIyKboww8VOYXNO+85RNHu4ao2C39z0wFtAAAAARUxJTXrjQUK7vkxNll6v89401n9JW2KfZVCn99vNZ7ASG5fs76dYhXjj06GQu23cWGhVGvT4aXt+MiEKgfT9OA</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=LAPTOP-NT9N4R9S\MSSQULSERVER2022;Initial Catalog=OLTP_gmg;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DimTurista-{DA26735B-FC72-4455-B2DE-851706BC875A}DESKTOP-2G3SQHI\SQLSERVER2022.Turibus.sa;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -42,12 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-2G3SQHI\SQLSERVER2022;User ID=sa;Initial Catalog=TuribusDW;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-DimTurista-{5B8C4274-5626-4643-9C7A-4573A11C39F9}DESKTOP-2G3SQHI\SQLSERVER2022.TuribusDW.sa;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACmWAMR8alkKAvQpiIbYE/AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA75J9d56tvH4DOCxbhDfVfkRrZTAAy/O5MyWF7HSmfTwAAAAAOgAAAAAIAACAAAABmwlE36kPPRyhCg9seQJ19Sqw7pWmFyNIRRk5Ybt/tSTAAAACESkvLDRZuY5DUWAgRrmc/7qRa1IxYlZ5AjGZzF68RKvf/0Kd0K2Fwiwx5cW7jSOpAAAAAbnIMgZdd5mcWwMJw0/ro2qpXPgXkCIbnQLudcaZrxunmIEgJWKyVS707Q5eW3L1Akii+ZyGydoH1U69hD13a4g</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=LAPTOP-NT9N4R9S\MSSQULSERVER2022;Initial Catalog=dw_TURYBUS;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DimTurista-{5B8C4274-5626-4643-9C7A-4573A11C39F9}DESKTOP-2G3SQHI\SQLSERVER2022.TuribusDW.sa;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -218,17 +208,6 @@
                       name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[CI]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[CI]"
-                      length="20"
-                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[CI]"
-                      name="CI"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Apellidos]"
                       codePage="1252"
                       dataType="str"
@@ -283,6 +262,17 @@
                       lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Nit]"
                       name="Nit"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Ci]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[Ci]"
+                      length="20"
+                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Ci]"
+                      name="Ci"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -290,12 +280,6 @@
                       refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
-                    <externalMetadataColumn
-                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[CI]"
-                      codePage="1252"
-                      dataType="str"
-                      length="20"
-                      name="CI" />
                     <externalMetadataColumn
                       refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[Apellidos]"
                       codePage="1252"
@@ -326,6 +310,12 @@
                       dataType="str"
                       length="20"
                       name="Nit" />
+                    <externalMetadataColumn
+                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].ExternalColumns[Ci]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="Ci" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -339,12 +329,12 @@
                       lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[id]"
                       name="id" />
                     <outputColumn
-                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[CI]"
+                      refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[Ci]"
                       codePage="1252"
                       dataType="str"
                       length="20"
-                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[CI]"
-                      name="CI" />
+                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[Ci]"
+                      name="Ci" />
                     <outputColumn
                       refId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Error Output].Columns[Apellidos]"
                       codePage="1252"
@@ -470,13 +460,13 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load Turista\Load DIM.Inputs[OLE DB Destination Input].Columns[CI]"
+                      refId="Package\Load Turista\Load DIM.Inputs[OLE DB Destination Input].Columns[Ci]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="20"
-                      cachedName="CI"
+                      cachedName="Ci"
                       externalMetadataColumnId="Package\Load Turista\Load DIM.Inputs[OLE DB Destination Input].ExternalColumns[Ci]"
-                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[CI]" />
+                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Ci]" />
                     <inputColumn
                       refId="Package\Load Turista\Load DIM.Inputs[OLE DB Destination Input].Columns[Apellidos]"
                       cachedCodepage="1252"
@@ -671,13 +661,13 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load Turista\Load Staging.Inputs[OLE DB Destination Input].Columns[CI]"
+                      refId="Package\Load Turista\Load Staging.Inputs[OLE DB Destination Input].Columns[Ci]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="20"
-                      cachedName="CI"
+                      cachedName="Ci"
                       externalMetadataColumnId="Package\Load Turista\Load Staging.Inputs[OLE DB Destination Input].ExternalColumns[Ci]"
-                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[CI]" />
+                      lineageId="Package\Load Turista\Get Stores.Outputs[OLE DB Source Output].Columns[Ci]" />
                     <inputColumn
                       refId="Package\Load Turista\Load Staging.Inputs[OLE DB Destination Input].Columns[Apellidos]"
                       cachedCodepage="1252"
@@ -1058,12 +1048,12 @@ where [refTable].[TuristaID] = ?</property>
       DTS:To="Package\Update Config" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
@@ -1073,10 +1063,6 @@ where [refTable].[TuristaID] = ?</property>
           Size="158.4,41.6"
           Id="Package\Clean up Staging"
           TopLeft="485.833306788572,261.733331513272" />
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Update Config"
-          TopLeft="463.333308017917,488.799996600946" />
         <NodeLayout
           Size="201.6,41.6"
           Id="Package\Get Database RowVersion"
@@ -1089,6 +1075,14 @@ where [refTable].[TuristaID] = ?</property>
           Size="136,41.6"
           Id="Package\Load Turista"
           TopLeft="490.833306515384,337.13333098895" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Sync Staging"
+          TopLeft="464.166641305719,408.99999766767" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Update Config"
+          TopLeft="463.333308017917,488.799996600946" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="571.716640554452,144.733332616157">
@@ -1155,10 +1149,6 @@ where [refTable].[TuristaID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Sync Staging"
-          TopLeft="464.166641305719,408.99999766767" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="558.833306515384,378.73333098895">

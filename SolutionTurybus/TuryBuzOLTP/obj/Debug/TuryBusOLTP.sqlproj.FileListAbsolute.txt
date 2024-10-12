@@ -14,3 +14,9 @@ D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.pdb
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBusOLTP.sqlproj.AssemblyReference.cache
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.dll
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.pdb
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBusOLTP.dacpac
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.dll
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\Debug\TuryBuzOLTP.pdb
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBusOLTP.sqlproj.AssemblyReference.cache
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.dll
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.pdb

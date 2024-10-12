@@ -30,3 +30,9 @@ D:\MSCS\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TurybusDW.pdb
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TuryBusDW.sqlproj.AssemblyReference.cache
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.dll
 D:\MSCS\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.pdb
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TuryBusDW.dacpac
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TurybusDW.dll
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\bin\Debug\TurybusDW.pdb
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TuryBusDW.sqlproj.AssemblyReference.cache
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.dll
+C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TurybusDW\obj\Debug\TurybusDW.pdb
