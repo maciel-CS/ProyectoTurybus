@@ -8,7 +8,7 @@ BEGIN
 	SELECT  id, 
             id_lugarOrigen,	
             id_LugarDestino,                                                    
-		Costo_Transporte
+		Costo_Transporte,
 		tiempoParada,
 		tiempo_viaje
 	  FROM [dbo].[RutaTuristica]
