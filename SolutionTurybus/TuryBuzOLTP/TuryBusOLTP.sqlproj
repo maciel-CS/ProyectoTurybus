@@ -103,6 +103,7 @@
     <None Include="Scripts\Boleto.data.sql" />
     <None Include="Scripts\ActividadTuristica.data.sql" />
     <None Include="Scripts\Turista.data.sql" />
+    <None Include="Scripts\DetalleServicio.Data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />

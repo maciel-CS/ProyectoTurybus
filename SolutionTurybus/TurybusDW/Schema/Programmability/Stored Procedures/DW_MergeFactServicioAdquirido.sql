@@ -6,18 +6,17 @@ BEGIN
 	SET      ServicioAdquiridoID	= sc.ServicioAdquiridoID     --ServicioAdquiridoID
 			,TuristaID	= sc.TuristaID
 			,ServicioSK	= sc.ServicioSK
+			,FechaAdquiridaKey = sc.FechaAdquiridaKey
 			,FechaAdquirida	= sc.FechaAdquirida
 			,ConductorSK	= sc.ConductorSK
 			,AutobusSK	= sc.AutobusSK
 			,RutaTuristicaSK = sc.RutaTuristicaSK
-            ,ActividadTuristicaSK = sc.ActividadTuristicaSK
-			,BoletoSK = sc.BoletoSK
 			,PrecioPaquete 	= sc.PrecioPaquete 
 			,CostoServicio 	= sc.CostoServicio 
 			,NumeroDeActividades	= sc.NumeroDeActividades
 			,ListadeActividades 	= sc.ListadeActividades 
-	FROM FactServicioAdquirido dc
-	INNER JOIN [staging].[ServicioAdquirido] sc ON (dc.[ServicioAdquiridoSK] = sc.[ServicioAdquiridoID] AND dc.TuristaID = sc.[TuristaSK])
+	FROM [dbo].FactServicioAdquirido dc	
+	INNER JOIN [staging].[ServicioAdquirido] sc ON (dc.ServicioAdquiridoID = sc.[ServicioAdquiridoID] AND dc.TuristaID = sc.[TuristaID])
 END
 GO
 

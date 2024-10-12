@@ -20,3 +20,7 @@ C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\bin\De
 C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBusOLTP.sqlproj.AssemblyReference.cache
 C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.dll
 C:\Users\Hp OMEN\source\repos\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\TuryBuzOLTP.pdb
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\Model.xml
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\refactor.xml
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\postdeploy.sql
+D:\MSCS\ProyectoTurybus\SolutionTurybus\TuryBuzOLTP\obj\Debug\predeploy.sql

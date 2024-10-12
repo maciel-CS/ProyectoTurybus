@@ -21,4 +21,5 @@ Post-Deployment Script Template
 :r .\ActividadTuristica.data.sql
 :r .\Servicio.data.sql
 :r .\ServicioAdquirido.data.sql
+:r .\DetalleServicio.data.sql
 :r .\Boleto.data.sql

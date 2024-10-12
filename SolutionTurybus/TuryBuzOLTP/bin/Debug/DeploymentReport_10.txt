@@ -1,0 +1,53 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ActividadTuristica] (Table)
+       [dbo].[Autobus] (Table)
+       [dbo].[Boleto] (Table)
+       [dbo].[Conductor] (Table)
+       [dbo].[DetalleServicio] (Table)
+       [dbo].[LugarTuristico] (Table)
+       [dbo].[Reparacion] (Table)
+       [dbo].[Reparacion].[IX_Reparacion_id_revision] (Index)
+       [dbo].[Revision] (Table)
+       [dbo].[Revision].[IX_Revision_id_autobus] (Index)
+       [dbo].[RutaTuristica] (Table)
+       [dbo].[Servicio] (Table)
+       [dbo].[ServicioAdquirido] (Table)
+       [dbo].[Turista] (Table)
+       [dbo].[FK_Boleto_ServicioAdquirido] (Foreign Key)
+       [dbo].[FK_DetalleServicio_ServicioAdquirido] (Foreign Key)
+       [dbo].[FK_DetalleServicio_ActividadTuristica] (Foreign Key)
+       [dbo].[FK_reparacion_revision] (Foreign Key)
+       [dbo].[FK_revision_autobus] (Foreign Key)
+       [dbo].[FK_RutaTuristica_LugarOrigen] (Foreign Key)
+       [dbo].[FK_RutaTuristica_LugarDestino] (Foreign Key)
+       [dbo].[FK_Servicio_Conductor] (Foreign Key)
+       [dbo].[FK_Servicio_Autobus] (Foreign Key)
+       [dbo].[FK_Servicio_RutasTuristicas] (Foreign Key)
+       [dbo].[FK_ServicioAdquirido_Servicio] (Foreign Key)
+       [dbo].[FK_ServicioAdquirido_Turista] (Foreign Key)
+       [dbo].[GeAutobusChangesByRowVersion] (Procedure)
+       [dbo].[GetActividadTuristicaChangesByRowVersion] (Procedure)
+       [dbo].[GetBoletoChangesByRowVersion] (Procedure)
+       [dbo].[GetConductorChangesByRowVersion] (Procedure)
+       [dbo].[GetDatabaseRowVersion] (Procedure)
+       [dbo].[GetDetalleServicioChangesByRowVersion] (Procedure)
+       [dbo].[GetLugarTuristicoChangesByRowVersion] (Procedure)
+       [dbo].[GetReparacionChangesByRowVersion] (Procedure)
+       [dbo].[GetRevisionChangesByRowVersion] (Procedure)
+       [dbo].[GetRutaTuristicaChangesByRowVersion] (Procedure)
+       [dbo].[GetServicioAdquiridoChangesByRowVersion] (Procedure)
+       [dbo].[GetServicioChangesByRowVersion] (Procedure)
+       [dbo].[GetTuristaChangesByRowVersion] (Procedure)
+
+** Supporting actions

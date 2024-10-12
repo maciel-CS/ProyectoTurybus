@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[FactServicioAdquirido].[BoletoSK] is being dropped, data loss could occur.
+       The column [staging].[ServicioAdquirido].[BoletoSK] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[FactServicioAdquirido] (Table)
+       [staging].[ServicioAdquirido] (Table)
+       [dbo].[DW_MergeFactServicioAdquirido] (Procedure)
+
+** Supporting actions
+
+The column [dbo].[FactServicioAdquirido].[BoletoSK] is being dropped, data loss could occur.
+The column [staging].[ServicioAdquirido].[BoletoSK] is being dropped, data loss could occur.
+

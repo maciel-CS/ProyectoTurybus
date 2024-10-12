@@ -102,6 +102,7 @@
   <ItemGroup>
     <None Include="Scripts\PackageConfig.data.sql" />
     <None Include="Scripts\PatchDimTiempo.data.sql" />
+    <None Include="Scripts\DimTiempo.Data.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />

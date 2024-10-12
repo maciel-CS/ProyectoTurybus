@@ -11,4 +11,5 @@ Post-Deployment Script Template
 */
 
 :r .\PackageConfig.data.sql	
+:r .\DimTiempo.data.sql	
 :r .\PatchDimTiempo.data.sql

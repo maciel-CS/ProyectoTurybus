@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>TuryBusAgETL</Name>
-    <LastWriteTime>2024-10-12T11:35:15.9291857Z</LastWriteTime>
+    <LastWriteTime>2024-10-12T19:01:43.1587713Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,17 +13,32 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimTurista.dtsx</Name>
-      <LastWriteTime>2024-10-12T10:38:05.8772245Z</LastWriteTime>
+      <LastWriteTime>2024-10-12T11:45:24.6235188Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimConductor.dtsx</Name>
-      <LastWriteTime>2024-10-12T10:37:00.568102Z</LastWriteTime>
+      <LastWriteTime>2024-10-12T11:53:30.8624164Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimRutaTuristica.dtsx</Name>
-      <LastWriteTime>2024-10-12T11:54:45.0588822Z</LastWriteTime>
+      <LastWriteTime>2024-10-12T12:05:08.526515Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>FactServicioAdquirido.dtsx</Name>
+      <LastWriteTime>2024-10-12T18:45:31.0263908Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DimServicio.dtsx</Name>
+      <LastWriteTime>2024-10-12T18:57:41.5775121Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DimActividadTuristica.dtsx</Name>
+      <LastWriteTime>2024-10-12T19:01:38.1771669Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

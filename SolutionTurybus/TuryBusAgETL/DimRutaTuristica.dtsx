@@ -11,8 +11,8 @@
   DTS:LocaleID="16394"
   DTS:ObjectName="DimRutaTuristica"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{BA9DC032-24C5-418A-990D-47BC0D44B545}">
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{53C8D243-32F9-4915-B298-B7C3EDB4F1F4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-NT9N4R9S\MSSQULSERVER2022;Initial Catalog=OLTP_gmg;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DimRutaTuristica-{883E8C67-84DB-4084-9D85-8C1FA6EDDA23}LAPTOP-NT9N4R9S\MSSQULSERVER2022.OLTP_gmg;" />
+          DTS:ConnectionString="Data Source=DESKTOP-2G3SQHI\SQLSERVER2022;Initial Catalog=Turibus;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DimRutaTuristica-{883E8C67-84DB-4084-9D85-8C1FA6EDDA23}Source_MSSQULSERVER2022.OLTP_gmg;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -37,7 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-NT9N4R9S\MSSQULSERVER2022;Initial Catalog=dw_TURYBUS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DimRutaTuristica-{9BF3D6B5-E0B6-466E-9603-E04DFDDC99ED}LAPTOP-NT9N4R9S\MSSQULSERVER2022.DTWH_gmg;" />
+          DTS:ConnectionString="Data Source=DESKTOP-2G3SQHI\SQLSERVER2022;Initial Catalog=TuribusDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DimRutaTuristica-{9BF3D6B5-E0B6-466E-9603-E04DFDDC99ED}Target_MSSQULSERVER2022.DTWH_gmg;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -227,23 +227,23 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempoParada]"
-                      dataType="dbTime2"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].ExternalColumns[tiempoParada]"
+                      length="16"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempoParada]"
                       name="tiempoParada"
-                      scale="7"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempo_viaje]"
-                      dataType="dbTime2"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].ExternalColumns[tiempo_viaje]"
+                      length="16"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempo_viaje]"
                       name="tiempo_viaje"
-                      scale="7"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[Costo_Transporte]"
@@ -273,14 +273,14 @@
                       name="id_LugarDestino" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].ExternalColumns[tiempoParada]"
-                      dataType="dbTime2"
-                      name="tiempoParada"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="tiempoParada" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].ExternalColumns[tiempo_viaje]"
-                      dataType="dbTime2"
-                      name="tiempo_viaje"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="tiempo_viaje" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].ExternalColumns[Costo_Transporte]"
                       dataType="numeric"
@@ -323,16 +323,16 @@
                       name="id_LugarDestino" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Error Output].Columns[tiempoParada]"
-                      dataType="dbTime2"
+                      dataType="wstr"
+                      length="16"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Error Output].Columns[tiempoParada]"
-                      name="tiempoParada"
-                      scale="7" />
+                      name="tiempoParada" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Error Output].Columns[tiempo_viaje]"
-                      dataType="dbTime2"
+                      dataType="wstr"
+                      length="16"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Error Output].Columns[tiempo_viaje]"
-                      name="tiempo_viaje"
-                      scale="7" />
+                      name="tiempo_viaje" />
                     <outputColumn
                       refId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Error Output].Columns[Costo_Transporte]"
                       dataType="numeric"
@@ -419,9 +419,9 @@
                   <inputColumns>
                     <inputColumn
                       refId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].Columns[tiempoParada]"
-                      cachedDataType="dbTime2"
+                      cachedDataType="wstr"
+                      cachedLength="16"
                       cachedName="tiempoParada"
-                      cachedScale="7"
                       externalMetadataColumnId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].ExternalColumns[TiempoParada]"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempoParada]" />
                     <inputColumn
@@ -432,9 +432,9 @@
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[id]" />
                     <inputColumn
                       refId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].Columns[tiempo_viaje]"
-                      cachedDataType="dbTime2"
+                      cachedDataType="wstr"
+                      cachedLength="16"
                       cachedName="tiempo_viaje"
-                      cachedScale="7"
                       externalMetadataColumnId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].ExternalColumns[TiempoViaje]"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempo_viaje]" />
                     <inputColumn
@@ -470,9 +470,9 @@
                       name="RutaTuristicaID" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].ExternalColumns[TiempoViaje]"
-                      dataType="dbTime2"
-                      name="TiempoViaje"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="TiempoViaje" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].ExternalColumns[LugarOrigenID]"
                       dataType="i4"
@@ -489,9 +489,9 @@
                       scale="2" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\load Dim.Inputs[OLE DB Destination Input].ExternalColumns[TiempoParada]"
-                      dataType="dbTime2"
-                      name="TiempoParada"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="TiempoParada" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -594,9 +594,9 @@
                   <inputColumns>
                     <inputColumn
                       refId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].Columns[tiempoParada]"
-                      cachedDataType="dbTime2"
+                      cachedDataType="wstr"
+                      cachedLength="16"
                       cachedName="tiempoParada"
-                      cachedScale="7"
                       externalMetadataColumnId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TiempoParada]"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempoParada]" />
                     <inputColumn
@@ -627,9 +627,9 @@
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[id_lugarOrigen]" />
                     <inputColumn
                       refId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].Columns[tiempo_viaje]"
-                      cachedDataType="dbTime2"
+                      cachedDataType="wstr"
+                      cachedLength="16"
                       cachedName="tiempo_viaje"
-                      cachedScale="7"
                       externalMetadataColumnId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TiempoViaje]"
                       lineageId="Package\Load RutaTuristica\Get RutaTuristica.Outputs[OLE DB Source Output].Columns[tiempo_viaje]" />
                   </inputColumns>
@@ -641,9 +641,9 @@
                       name="RutaTuristicaSK" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TiempoViaje]"
-                      dataType="dbTime2"
-                      name="TiempoViaje"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="TiempoViaje" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[LugarOrigenID]"
                       dataType="i4"
@@ -660,9 +660,9 @@
                       scale="2" />
                     <externalMetadataColumn
                       refId="Package\Load RutaTuristica\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TiempoParada]"
-                      dataType="dbTime2"
-                      name="TiempoParada"
-                      scale="7" />
+                      dataType="wstr"
+                      length="16"
+                      name="TiempoParada" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -954,12 +954,12 @@ where [refTable].[RutaTuristicaID] = ?</property>
       DTS:To="Package\Update config" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
-<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
-<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
@@ -981,6 +981,14 @@ where [refTable].[RutaTuristicaID] = ?</property>
           Size="165.6,41.6"
           Id="Package\Load RutaTuristica"
           TopLeft="348.33331430124,278.199998065432" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Sync staging"
+          TopLeft="333.333315120804,386.533330645429" />
+        <NodeLayout
+          Size="142.4,41.6"
+          Id="Package\Update config"
+          TopLeft="334.999981696408,483.599996637106" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="426.083315189101,78.8666664075189">
@@ -1047,10 +1055,6 @@ where [refTable].[RutaTuristicaID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Sync staging"
-          TopLeft="333.333315120804,386.533330645429" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
           TopLeft="431.13331430124,319.799998065432">
@@ -1085,10 +1089,6 @@ where [refTable].[RutaTuristicaID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Update config"
-          TopLeft="334.999981696408,483.599996637106" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 4]"
           TopLeft="404.166648408606,428.133330645429">
@@ -1120,27 +1120,35 @@ where [refTable].[RutaTuristicaID] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Load RutaTuristica\Get RutaTuristica"
-          TopLeft="337.499981559814,124.799999132156" />
+          Size="137.6,41.6"
+          Id="Package\Load RutaTuristica\Load staging"
+          TopLeft="223.333321130938,389.133330627349" />
         <NodeLayout
           Size="112.8,41.6"
           Id="Package\Load RutaTuristica\Lookup"
           TopLeft="364.99998005728,250.466664924953" />
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\Load RutaTuristica\Get RutaTuristica"
+          TopLeft="336.666648272012,125.666665792796" />
+        <NodeLayout
+          Size="119.2,41.6"
+          Id="Package\Load RutaTuristica\load Dim"
+          TopLeft="537.499970632296,390.866663948629" />
         <EdgeLayout
           Id="Package\Load RutaTuristica.Paths[OLE DB Source Output]"
-          TopLeft="419.249980808547,166.399999132156">
+          TopLeft="418.833314164646,167.266665792796">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,84.0666657927968"
+              EndConnector="0,83.199999132157"
               Start="0,0"
-              End="0,76.5666657927968">
+              End="0,75.699999132157">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,76.5666657927968" />
+                    End="0,75.699999132157" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1149,50 +1157,6 @@ where [refTable].[RutaTuristicaID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Load RutaTuristica\Load staging"
-          TopLeft="223.333321130938,389.133330627349" />
-        <EdgeLayout
-          Id="Package\Load RutaTuristica.Paths[Lookup Match Output]"
-          TopLeft="403.933313390613,292.066664924953">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-111.799992259675,97.0666657023958"
-              Start="0,0"
-              End="-111.799992259675,89.5666657023958">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.641211727412" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,35.641211727412"
-                    Point2="0,39.641211727412"
-                    Point3="-4,39.641211727412" />
-                  <mssgle:LineSegment
-                    End="-107.799992259675,39.641211727412" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-107.799992259675,39.641211727412"
-                    Point2="-111.799992259675,39.641211727412"
-                    Point3="-111.799992259675,43.641211727412" />
-                  <mssgle:LineSegment
-                    End="-111.799992259675,89.5666657023958" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-104.091382848587,44.641211727412,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="119.2,41.6"
-          Id="Package\Load RutaTuristica\load Dim"
-          TopLeft="537.499970632296,390.866663948629" />
         <EdgeLayout
           Id="Package\Load RutaTuristica.Paths[Lookup No Match Output]"
           TopLeft="438.866646723947,292.066664924953">
@@ -1229,40 +1193,45 @@ where [refTable].[RutaTuristicaID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load RutaTuristica.Paths[Lookup Match Output]"
+          TopLeft="403.933313390613,292.066664924953">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-111.799992259675,97.0666657023958"
+              Start="0,0"
+              End="-111.799992259675,89.5666657023958">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.641211727412" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.641211727412"
+                    Point2="0,39.641211727412"
+                    Point3="-4,39.641211727412" />
+                  <mssgle:LineSegment
+                    End="-107.799992259675,39.641211727412" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-107.799992259675,39.641211727412"
+                    Point2="-111.799992259675,39.641211727412"
+                    Point3="-111.799992259675,43.641211727412" />
+                  <mssgle:LineSegment
+                    End="-111.799992259675,89.5666657023958" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-104.091382848587,44.641211727412,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load RutaTuristica\Get RutaTuristica">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load RutaTuristica\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimRutaTuristica]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load RutaTuristica\Load staging">
     <Properties>
@@ -1273,6 +1242,37 @@ where [refTable].[RutaTuristicaID] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load RutaTuristica\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimRutaTuristica]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load RutaTuristica\Get RutaTuristica">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
