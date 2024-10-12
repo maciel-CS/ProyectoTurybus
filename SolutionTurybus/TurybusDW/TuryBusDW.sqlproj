@@ -97,6 +97,7 @@
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimTurista.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimRutaTuristica.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimActividadTuristica.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\PackageConfig.data.sql" />
